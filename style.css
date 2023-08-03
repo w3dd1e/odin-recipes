@@ -4,8 +4,9 @@
     font-size: 15px;
 }
 div.headline {
-    width: 50%;
+    width: auto;
     margin: auto;
+    
     
 }
 
@@ -20,32 +21,31 @@ h1, h3 {
 
 h3{
     font-size: 20px;
+    padding: 10px 20px;
+   
 }
-
-div.container {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    line-height: 2;
-}
-
 
 
 ul {
-    
+    margin: 10px auto;
     list-style: none;
-    display: inline-block;
-    text-align: left;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    
    
 }
 
 a:link, a:visited {
-    background-color: whitesmoke;
+    background-color: rgb(182, 176, 180);
     color: black;
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 75%;
+    margin: 10px;
+    border-radius: 10px;
   }
   
   a:hover, a:active {
@@ -53,13 +53,17 @@ a:link, a:visited {
     color: white;
   }
 
-ol {
-    line-height: 1;
-}
+  p{
+     
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    
+  }
 
-ol > li {
-    margin-top: 15px;
-}
+ 
 
 
 
